@@ -1,0 +1,65 @@
+In file included from security/Rsa.cpp:6:
+security/Rsa.h:10:19: gmpxx.h: 沒有此一檔案或目錄
+In file included from security/Rsa.cpp:6:
+security/Rsa.h:18: error: `mpz_t' does not name a type
+security/Rsa.h:19: error: `mpz_t' does not name a type
+security/Rsa.cpp: In constructor `Rsa::Rsa(int)':
+security/Rsa.cpp:11: error: `d' undeclared (first use this function)
+security/Rsa.cpp:11: error: (Each undeclared identifier is reported only once for each function it appears in.)
+security/Rsa.cpp:11: error: `mpz_init' undeclared (first use this function)
+security/Rsa.cpp:12: error: `e' undeclared (first use this function)
+security/Rsa.cpp:13: error: `my_n' undeclared (first use this function)
+security/Rsa.cpp:14: error: `n' undeclared (first use this function)
+security/Rsa.cpp:16: error: `M' undeclared (first use this function)
+security/Rsa.cpp:17: error: `c' undeclared (first use this function)
+security/Rsa.cpp: In destructor `Rsa::~Rsa()':
+security/Rsa.cpp:34: error: `d' undeclared (first use this function)
+security/Rsa.cpp:34: error: `mpz_clear' undeclared (first use this function)
+security/Rsa.cpp:35: error: `e' undeclared (first use this function)
+security/Rsa.cpp:36: error: `my_n' undeclared (first use this function)
+security/Rsa.cpp:37: error: `n' undeclared (first use this function)
+security/Rsa.cpp:39: error: `M' undeclared (first use this function)
+security/Rsa.cpp:40: error: `c' undeclared (first use this function)
+security/Rsa.cpp: In member function `void Rsa::RSA_generateKeys()':
+security/Rsa.cpp:50: error: `mpz_t' undeclared (first use this function)
+security/Rsa.cpp:50: error: expected `;' before "p"
+security/Rsa.cpp:51: error: `p' undeclared (first use this function)
+security/Rsa.cpp:51: error: `mpz_init' undeclared (first use this function)
+security/Rsa.cpp:52: error: `q' undeclared (first use this function)
+security/Rsa.cpp:67: error: `mpz_set_str' undeclared (first use this function)
+security/Rsa.cpp:70: error: `mpz_nextprime' undeclared (first use this function)
+security/Rsa.cpp:73: error: expected `;' before "x"
+security/Rsa.cpp:74: error: `x' undeclared (first use this function)
+security/Rsa.cpp:75: error: `my_n' undeclared (first use this function)
+security/Rsa.cpp:75: error: `mpz_mul' undeclared (first use this function)
+security/Rsa.cpp:78: error: `mpz_get_str' undeclared (first use this function)
+security/Rsa.cpp:81: error: expected `;' before "p_minus_1"
+security/Rsa.cpp:82: error: `p_minus_1' undeclared (first use this function)
+security/Rsa.cpp:83: error: `q_minus_1' undeclared (first use this function)
+security/Rsa.cpp:84: error: `mpz_sub_ui' undeclared (first use this function)
+security/Rsa.cpp:88: error: expected `;' before "gcd"
+security/Rsa.cpp:89: error: `gcd' undeclared (first use this function)
+security/Rsa.cpp:95: error: `mpz_gcd_ui' undeclared (first use this function)
+security/Rsa.cpp:96: error: `mpz_cmp_ui' undeclared (first use this function)
+security/Rsa.cpp:100: error: `e' undeclared (first use this function)
+security/Rsa.cpp:100: error: `mpz_set_ui' undeclared (first use this function)
+security/Rsa.cpp:102: error: `d' undeclared (first use this function)
+security/Rsa.cpp:102: error: `mpz_invert' undeclared (first use this function)
+security/Rsa.cpp:107: error: `mpz_clear' undeclared (first use this function)
+security/Rsa.cpp: In member function `int Rsa::encrypt(char*, int, char**)':
+security/Rsa.cpp:122: error: `n' undeclared (first use this function)
+security/Rsa.cpp:122: error: `mpz_set_str' undeclared (first use this function)
+security/Rsa.cpp:129: error: `M' undeclared (first use this function)
+security/Rsa.cpp:130: error: `c' undeclared (first use this function)
+security/Rsa.cpp:130: error: `e' undeclared (first use this function)
+security/Rsa.cpp:130: error: `mpz_powm' undeclared (first use this function)
+security/Rsa.cpp:131: error: `mpz_get_str' undeclared (first use this function)
+security/Rsa.cpp: In member function `int Rsa::decrypt(char*, int, char**)':
+security/Rsa.cpp:146: error: `c' undeclared (first use this function)
+security/Rsa.cpp:146: error: `mpz_set_str' undeclared (first use this function)
+security/Rsa.cpp:147: error: `M' undeclared (first use this function)
+security/Rsa.cpp:147: error: `d' undeclared (first use this function)
+security/Rsa.cpp:147: error: `my_n' undeclared (first use this function)
+security/Rsa.cpp:147: error: `mpz_powm' undeclared (first use this function)
+security/Rsa.cpp:148: error: `mpz_get_str' undeclared (first use this function)
+make: *** [.obj/Rsa.o] Error 1
